@@ -1,0 +1,19 @@
+
+
+.hero {
+	&.home {
+    background: #fffff;
+    padding: 12em 10em;
+    height: 80vh;
+	    h1 {
+	        color: #000;
+    		text-align: center;
+	    }
+	    h2 {
+		    font-size: 1.2em;
+		    text-align: center;
+		    line-height: inherit;
+		    font-weight: 200;
+		}
+	}
+}

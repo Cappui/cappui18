@@ -1,0 +1,6 @@
+baseURL = "http://cappui.com/"
+languageCode = "en-us"
+title = "Cappui"
+
+themesDir = "themes"
+theme = "cappui"

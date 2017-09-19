@@ -1,0 +1,44 @@
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+::selection {
+    background: #FFC400;
+}
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body, html {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  min-height: 100%;
+  margin: 0; 
+  padding-top: 0px;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+    color: #282538;;
+    text-decoration: none;
+	&:hover {
+	    color: #282538;
+	}
+}
+
+p {
+	color: #fff;
+}
+
+h1, h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+

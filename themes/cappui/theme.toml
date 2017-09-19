@@ -1,0 +1,58 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Cappui"
+license = "MIT"
+licenselink = "https://github.com/cappui/cappuinew/blob/master/LICENSE.md"
+description = ""
+homepage = "http://cappui.com/"
+tags = []
+features = []
+min_version = "0.24.1"
+
+BaseUrl= "cappui.com"
+LanguageCode= "en"
+Title= "My blog is awesome"
+paginate = 5
+DisqusShortname = "YOUR_SHORT_NAME_HERE"
+Copyright = "All rights reserved - 2017/2018"
+canonifyurls = true
+
+
+[author]
+  name = "Duncan Forbes"
+  homepage = "https://duncanforbes.io"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
+
+
+
+[params]
+  description = "Welcome to my website"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "images/cover.jpg"
+  author = "Valère JEANTET"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://vjeantet.fr"
+  authorbio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "vjeantet"
+  twitterName = "vjeantet"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+ customCSS = "static/css/site.css"
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"

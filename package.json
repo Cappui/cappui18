@@ -1,0 +1,19 @@
+{
+  "name": "Cappui",
+  "version": "0.0.1",
+  "description": "Cappui 2017/2018 Website",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cappui/cappuinew.git"
+  },
+  "engines": {
+    "npm": ">=3"
+  },
+  "author": "Duncan Forbes",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-sass": "3.1.0",
+    "contentful-data": "1.1.6"
+  }
+}
